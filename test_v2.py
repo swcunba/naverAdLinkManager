@@ -1,4 +1,3 @@
-#네이버 들어가기 -> 검색어 입력 -> 파워링크 더보기 클릭 -> 요소 찾기 -> 검색어 재입력
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
