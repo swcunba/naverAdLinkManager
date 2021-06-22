@@ -26,7 +26,7 @@ def sendMail(result):
         msg = MIMEText(contents)
 
     msg["Subject"] = str(cur) + "제목"
-    s.sendmail("송신자 이메일", "수신자 이메일", msg.as_string)
+    s.sendmail("송신자 이메일", "수신자 이메일", msg.as_string())
     s.quit()
 
 
