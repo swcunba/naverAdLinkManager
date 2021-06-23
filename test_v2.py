@@ -63,7 +63,7 @@ def process(keywordList):
                 if link.text == host:
                     flag = 1
                     break
-            #페이지 넘기기. 3페이지 미만 나오는 경우 예외처리.
+                    
             driver.find_element_by_class_name("next").click()
             driver.implicitly_wait(1)
 
