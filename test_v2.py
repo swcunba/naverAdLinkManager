@@ -42,7 +42,7 @@ def process(keywordList):
     # first tab
     driver.get("https://ad.search.naver.com/search.naver?where=ad&query=&x=24&y=20")
 
-    host = "http://www.yongpt.com"
+    host = "찾고자 하는 파워링크"
     resList = []
     for i in range(0, len(keywordList)):
         search = driver.find_element_by_id("nx_query")
